@@ -11,6 +11,7 @@
     <modules>
         <module>service-spring-boot-api</module>
         <module>service-spring-boot-application</module>
+        <module>service-spring-boot-client</module>
     </modules>
 
     <parent>
