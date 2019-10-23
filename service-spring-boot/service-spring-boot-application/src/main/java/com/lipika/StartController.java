@@ -4,17 +4,17 @@ import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 @RestController
-public class HelloController {
+public class StartController {
 
     @RequestMapping("/")
-    public String index() {
-        return "Greetings from Spring Boot!";
+    public String rootRequest() {
+        return "Greetings!! from Spring Boot root path!";
     }
 
 
     @RequestMapping("/corner")
-    public String indexCorner() {
-        return "Greetings from Spring Boot Corner!";
+    public String cornerRequest() {
+        return "Greetings!! from Spring Boot Corner path!";
     }
 
 }
